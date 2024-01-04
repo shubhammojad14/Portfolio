@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Portfolio</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--body-->
+        <header class="header">
+
+            <img src="./assets/logo/logo.svg" alt="" >
+            <a href="#" class="logo">Portfolio</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">ABOUT</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#qualification">QUALIFICATION</a>
+                <!--<a href="#services">SERVICES</a>
+                <a href="#portfolio">PORTFOLIO</a>-->
+                <a href="#contact">CONTACT</a>
+            </nav>
+        </header>
+
+        <!--   Home   -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello,It's Me</h3>
+                <h1>Shubham</h1>
+                <h3>And I'm a <span >Full Stack web Developer</span></h3>
+                <div class="social-media">
+                    <a href="https://github.com/shubhammojad14"><i class='bx bxl-github'></i></a>
+                    <!--<a href="#"><i class='bx bxs-envelope'></i></a>-->
+                    <a href="https://www.instagram.com/stories/shubham14mojad/3271130638574634567?utm_source=ig_story_item_share&igsh=a3k3Njk5Ymk2OGYw"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.linkedin.com/in/shubhamojad"><i class='bx bxl-linkedin-square' ></i></a>
+                </div>
+                <a href="./assets/resume/S_Mojad Resume.pdf" class="btn">Download CV</a>
+            </div>
+            <div class="home-img">
+                <img src='./assets/photos/profile.jpg' class="home-img-shape" alt="">
+            </div>
+        </section>
+
+        <!--   About   -->
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="./assets/photos/about333.jpg" alt="" >
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About<span>Me</span></h2>
+                <h3>My Introduction</h3>
+                <p>Hi I'm Shubham Mojad. I'm 21 years old. When I have free time, it's great to indulge in some of my favorite hobbies like study Maths & Science and exploring different kinds of new technology.
+                    I'm a full-stack developer. I have learnt HTML, CSS, JS ,Php and Python. I am interested in working on projects with an open-source focus .
+                    <span id="dots"class="span-p">. . .</span>
+                    <span id="more" class="span-p">Crafting captivating UI using modern frameworks and libraries and Architecting scalable and secure server-side systems,
+                        with expertise in front-end and back-end development.</span></p>
+                 <button class="btn" onclick="myFunction()" id="myBtn">Read more</button>
+   
+            </div>
+        </section>
+
+        <!-- Skills  -->
+
+        <section class="skills"id="skills">
+            <h2 class="heading"><span>Skills</span></h2>
+            <h4 class="heading_skills">My Technical skills</h4>
+
+            <div class="skills-container">
+
+                <!--Langauages-->
+                <div class="skills-box">
+                    <div class="skills_dropdown">
+                        <div class="skills_header">
+                                <button class="btn btn-secondary btn-lg dropdown-toggle" type="drop_button" >
+                                    Programming Languages
+                                </button>
+
+
+                        </div>
+                        <div class="skills_list">
+                            <div class="skills-item">
+                                <ul class="dropdown_menu"style="list-style-type:none;">
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    <img src="/assets/skills/html.svg" class="skills__logo"
+                                                 alt=""> 
+                                                <h2>C/C++</h2>
+                                                </div>
+                                                <h2>90%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:90%"></div>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    <img src="/assets/skills/python.svg" class="skills__logo"
+                                                 alt=""> 
+                                                <h2>Python</h2>
+                                                </div>
+                                                <h2>70%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:70%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    <img src="/assets/skills/php.svg" class="skills__logo"
+                                                 alt=""> 
+                                                <h2>Php</h2>
+                                                </div>
+                                                <h2>85%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:85%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    <img src="/assets/skills/javascript.svg" class="skills__logo"
+                                                 alt=""> 
+                                                <h2>JavaScript</h2>
+                                                </div>
+                                                <h2>90%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:90%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                    
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Frontend -->
+                <div class="skills-box">
+                    <div class="skills_dropdown">
+                        <div class="skills_header">
+                                <button class="btn btn-secondary btn-lg dropdown-toggle" type="drop_button" >
+                                    Frontend Development
+                                </button>
+
+
+                        </div>
+                        <div class="skills_list">
+                            <div class="skills-item">
+                                <ul class="dropdown_menu"style="list-style-type:none;">
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    <img src="/assets/skills/html.svg" class="skills__logo"
+                                                 alt=""> 
+                                                <h2>Html</h2>
+                                                </div>
+                                                <h2>85%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:85%"></div>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    <img src="/assets/skills/css.svg" class="skills__logo"
+                                                 alt=""> 
+                                                <h2>CSS</h2>
+                                                </div>
+                                                <h2>75%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:75%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                   
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    <img src="/assets/skills/react.svg" class="skills__logo"
+                                                 alt=""> 
+                                                <h2>React</h2>
+                                                </div>
+                                                <h2>60%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:60%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    <img src="/assets/skills/nodejs.svg" class="skills__logo"
+                                                 alt=""> 
+                                                <h2>NodeJs</h2>
+                                                </div>
+                                                <h2>50%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:50%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!--Backend-->
+                <div class="skills-box">
+                    <div class="skills_dropdown">
+                        <div class="skills_header">
+                                <button class="btn btn-secondary btn-lg dropdown-toggle" type="drop_button" >
+                                    Backend Development
+                                </button>
+
+
+                        </div>
+                        <div class="skills_list">
+                            <div class="skills-item">
+                                <ul class="dropdown_menu"style="list-style-type:none;">
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    <img src="/assets/skills/phpmyadmin.svg" class="skills__logo"
+                                                 alt=""> 
+                                                <h2>PhpMyAdmin</h2>
+                                                </div>
+                                                <h2>80%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:80%"></div>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    <img src="/assets/skills/mysql.svg" class="skills__logo"
+                                                 alt=""> 
+                                                <h2>MySQL</h2>
+                                                </div>
+                                                <h2>85%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:85%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    <img src="/assets/skills/firebase.svg" class="skills__logo"
+                                                 alt=""> 
+                                                <h2>Firebase</h2>
+                                                </div>
+                                                <h2>90%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:90%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    <img src="/assets/skills/mongo.svg" class="skills__logo"
+                                                 alt=""> 
+                                                <h2>MongoDB</h2>
+                                                </div>
+                                                <h2>60%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:60%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!--Framework-->
+
+                <div class="skills-box">
+                    <div class="skills_dropdown">
+                        <div class="skills_header">
+                                <button class="btn btn-secondary btn-lg dropdown-toggle" type="drop_button" >
+                                    Framework
+                                </button>
+
+
+                        </div>
+                        <div class="skills_list">
+                            <div class="skills-item">
+                                <ul class="dropdown_menu"style="list-style-type:none;">
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    <img src="/assets/skills/laravel.svg" class="skills__logo"
+                                                 alt=""> 
+                                                <h2>Laravel</h2>
+                                                </div>
+                                                <h2>65%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:65%"></div>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    <img src="/assets/skills/flask.svg" class="skills__logo"
+                                                 alt=""> 
+                                                <h2>Flask</h2>
+                                                </div>
+                                                <h2>40%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:40%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    <img src="/assets/skills/express.svg" class="skills__logo"
+                                                 alt=""> 
+                                                <h2>ExpressJs</h2>
+                                                </div>
+                                                <h2>60%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:60%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    <img src="/assets/skills/bootstrap.svg" class="skills__logo"
+                                                 alt=""> 
+                                                <h2>Bootstrap</h2>
+                                                </div>
+                                                <h2>70%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:70%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                    
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Fundamentals -->
+                <div class="skills-box">
+                    <div class="skills_dropdown">
+                        <div class="skills_header">
+                                <button class="btn btn-secondary btn-lg dropdown-toggle" type="drop_button" >
+                                    Fundamentals
+                                </button>
+
+
+                        </div>
+                        <div class="skills_list">
+                            <div class="skills-item">
+                                <ul class="dropdown_menu"style="list-style-type:none;">
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                   
+                                                <h2>Operating System</h2>
+                                                </div>
+                                                <h2>90%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:90%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                   
+                                                <h2>DBMS</h2>
+                                                </div>
+                                                <h2>80%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:80%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                   
+                                                <h2>Computer Organization and Architecture</h2>
+                                                </div>
+                                                <h2>60%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:60%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                   
+                                                <h2>Computer Network</h2>
+                                                </div>
+                                                <h2>50%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:50%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!--  Professional skills-->
+
+                <div class="skills-box">
+                    <div class="skills_dropdown">
+                        <div class="skills_header">
+                                <button class="btn btn-secondary btn-lg dropdown-toggle" type="drop_button" >
+                                    Professional Skills
+                                </button>
+
+
+                        </div>
+                        <div class="skills_list">
+                            <div class="skills-item">
+                                <ul class="dropdown_menu"style="list-style-type:none;">
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                   
+                                                <h2>Communication</h2>
+                                                </div>
+                                                <h2>80%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:80%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                     
+                                                <h2>Team Work</h2>
+                                                </div>
+                                                <h2>95%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:95%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                    
+                                                <h2>Project Management</h2>
+                                                </div>
+                                                <h2>90%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:90%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="list_item">
+                                            <div class="itemalign">
+                                                <div class="item_right">
+                                                   
+                                                <h2>Creativity</h2>
+                                                </div>
+                                                <h2>80%</h2>
+                                            </div>
+                                            <div class="w3-progress-container w3-round-xlarge">
+                                                <div class="w3-progressbar w3-round-xlarge" style="width:80%"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+        
+                
+                
+
+            </div>
+        </section>
+
+
+        <!--   Qualification  -->
+        
+        <section class="qualification"id="qualification">
+            <h2 class="heading"><span>Qualification</span></h2>
+            <div class="container">
+	
+                <main class="row">
+                    
+                    <!--   *******  Education Section Starts  *******   -->
+            
+                    <section class="col">
+                        
+                        <header class="title">
+                            <h2>EDUCATION</h2>
+                        </header>
+            
+                        <div class="contents">
+                            
+                            <div class="box">
+                                <h4>Jun 2017 - Mar 2019</h4>
+                                <h3>High School Degree </h3>
+                                <p> Percentage : 72.32%<br>
+                                    GMD Arts BW commerce & Science College, Sinnar.<br>
+                                    <ul><li>Relevant Coursework : Mathematics, Information Technology.
+                                    </li></ul>
+                                    </p>
+                            </div>
+            
+                            <div class="box">
+                                <h4>Aug 2019 - Jul 2023</h4>
+                                <h3>B.E. in Computer Science and Cyber Security</h3>
+                                <p>CGPA: 9.16/10<br>
+                                    Sinhgad Institute of Technology and Science, Pune <br>
+                                    <ul><li>Relevant Coursework : Object Oriented Programming, Databases, Discrete Mathematics, Data Structures and Algorithms, Operating Systems, Computer Networks, Machine Learning, Information security, Web Development.
+                                    </li></ul>
+                                    </p>
+                            </div>
+            
+                            
+            
+                        </div>
+                    </section>
+            
+                    <!--   *******  Education Section Ends  *******   -->
+            
+                    <!--   *******  Experience Section Starts  *******  -->
+            
+                    <section class="col">
+                        
+                        <header class="title">
+                            <h2>EXPERIENCE</h2>
+                        </header>
+            
+                        <div class="contents">
+                            
+                            <div class="box">
+                                <h4>Nov 2021 - May 2022</h4>
+                                <h3>Php Laravel Developer</h3>
+                                <p>Vaayuh System, Pune <br>
+                                    <ul>
+                                        <li> Built a Admin panels, web apps, websites as per client requirement </li>
+                                        <li> Worked On APIs such as Zoom & Payment intergration.</li>
+                                        <li> Html, CSS, Javascript, Bootstrap, Php, Laravel, Firebase,PHPMyadmin</li>
+                                    </ul>
+                                </p>
+                            </div>
+            
+                            <div class="box">
+                                <h4>Jul 2022 - Dec 2023</h4>
+                                <h3>Full-Stack Developer</h3>
+                                <p>Vaayuh System, Pune <br>
+                                    <ul>
+                                        <li> Worked on mutiple project such as Web apps,Websites,Desktop apps& Furthermore.</li>
+                                        <li> Developed web apps with integration of ML models</li>
+                                        <li> MERN, Python, Flask.</li>
+                                    </ul></p>
+                            </div>
+            
+                            
+            
+                        </div>
+                    </section>
+            
+                    <!--   *******  Experience Section Ends   *******  -->
+                </main>
+            </div>
+
+            
+        </section>
+
+
+        
+
+
+
+
+        <!--   Services   -->
+      
+        <!--
+
+        <section class="services"id="services">
+            <h2 class="heading">Our<span>Services</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Development</h3>
+                    <p>Motivated designer and developer
+                         with experience creating custom websites through PHP and CSS. 
+                         Strong collaboration skills and proven history of application development. DHTML and JavaScript. MS Access and MySQL.</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+        
+                <div class="services-box">
+                    <i class='bx bx-crop' ></i>
+                    <h3>UI/UX Design</h3>
+                    <p>You cannot make a good design if you do not understand people; design is made for people.</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+            
+                <div class="services-box">
+                    <i class='bx bxl-instagram-alt' ></i>
+                    <h3>App Design</h3>
+                    <p>I'm UI/UX Designer with a great passion to my work. The main goal is to create modern, attractive and user-friendly interfaces and find creative and simple solutions for your business.
+                        </p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        -->
+
+
+        <!--   portfolio   -->
+
+
+        <!--
+        <section class="portfolio"id="portfolio">
+            <h2 class="heading">Latest<span>Project</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="myproject/image/jan-vlacuha-Rns_A8bJ_dQ-unsplash.jpg"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Perssonal Portfolio</h4>
+                        <p>In this project I try making my own portfolio website for myself. Showcase my projects, my social media handles, my experience on the website.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="myproject/image/austin-poon-JO_S6ewBqAk-unsplash.jpg"alt="">
+                    <div class="portfolio-layer">
+                        <h4>dynamics website Deployment in AWS</h4>
+                        <p>In this project I try deployed dynamics website in AWS.so that we can add deleted the data by connecting to databases.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="myproject/image/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Iris flower detection</h4>
+                        <p>In this project I try detect the iris flower type by using machine learning predication model.And deployed in streamlit python</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="myproject/image/kevin-canlas-QYHehJ9Iovs-unsplash.jpg"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Cab Booking </h4>
+                        <p>In this project we can book a cab by using java.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+
+        <!--   contact   -->
+
+
+        <section class="contact"id="contact">
+            <h2 class="heading">Contact<span>ME!</span></h2>
+
+            <form onsubmit="SendEmail(); reset();return false;">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" id="Name">
+                    <input type="email" placeholder="Email Address"id="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number"id="Contact">
+                    <input type="text" placeholder="Email Subject"id="Subject">
+                </div>
+                <textarea cols="30" rows="10"placeholder="Your Message"id="Message"></textarea>
+                <input type="submit" value="Send Message"class="btn">
+            </form>
+            <span id="msg"></span>
+        </section>
+
+
+        <!--   Footer   -->
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by shubhamojad | All Rights Reserved.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="script.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        
+
+        
+          <script>
+            
+            function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more"; 
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+            }
+            }
+            </script>
+            <script>
+          
+            function SendEmail(){
+
+                let name = document.getElementById("Name").value;
+                let email = document.getElementById("Email").value;
+                let contact = document.getElementById("Contact").value;
+                let subject = document.getElementById("Subject").value;
+                let message = document.getElementById("Message").value;
+
+                Email.send({
+                    Host : "smtp.elasticemail.com",
+                    Username : "shubhammojad.sits.comp@gmail.com",
+                    Password : "63D7078EF4FDB28D9A922714009297334F1B",
+                    To : 'shubhammojad.sits.comp@gmail.com',
+                    From : "shubhammojad.sits.comp@gmail.com",
+                    Subject : "Mail from Portfolio",
+                    Body : "Name : "+ name +
+                            "<br/>Email : "+ email +
+                            "<br/>Contact Number : "+ contact +
+                            "<br/> Subject : "+ subject +
+                            "<br> User Message : "+ message
+                            
+                }).then(
+                message => alert("Message Send Successfully")
+                );
+
+            }
+          </script>
+        
+    </body>
+</html>
